@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    font-family: 'Playpen Sans', cursive;
+}
+
+body {
+    overflow: hidden;
+}
+
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.dot-flashing:after {
+    content: "...";
+    display: inline;
+    animation: dot-animation 1.5s infinite;
+}
+
+@keyframes dot-animation {
+    0%, 100% {
+        content: ".";
+    }
+    30% {
+        content: "..";
+    }
+    60% {
+        content: "...";
+    }
+}
