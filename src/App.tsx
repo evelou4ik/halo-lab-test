@@ -17,7 +17,7 @@ function App() {
   };
 
   return (
-    <div className={"w-screen min-h-screen bg-amber-50 px-2"}>
+    <div className={"w-screen min-h-screen bg-amber-200 px-2"}>
       {gameStepsComponents[gameStep]}
     </div>
   );

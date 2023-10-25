@@ -6,7 +6,7 @@ export default function Speedometer() {
   return (
     <div
       className={
-        "fixed flex items-center gap-4 right-20 top-4 bg-gray-800 text-white p-4 rounded-lg"
+        "fixed flex items-center gap-4 right-4 top-4 bg-gray-800 text-white p-4 rounded-lg"
       }
     >
       <div className={"p-4 bg-gray-600 rounded-xl "}>
